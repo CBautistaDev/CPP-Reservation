@@ -1,0 +1,14 @@
+CREATE TABLE `students` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `bID` int(20) DEFAULT NULL,
+  `start_day` date DEFAULT NULL,
+  `end_day` date DEFAULT NULL,
+  `start_time` time(6) DEFAULT NULL,
+  `end_time` time(6) DEFAULT NULL,
+  `Reason` varchar(250) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
