@@ -1,6 +1,5 @@
 <?php
 
-//use vendor\PHPMailer\PHPMailer\PHPMailer;
 
 
 
